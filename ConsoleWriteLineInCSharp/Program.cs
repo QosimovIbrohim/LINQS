@@ -7,7 +7,7 @@
         {
             try
             {
-                string url = "";
+                string url = "https://exam-month5-redux-8nq07vj7c-tohirjon-odilov.vercel.app/logout";
                 HttpClient client = new HttpClient();
                 HttpResponseMessage response = await client.GetAsync(url);
                 Console.WriteLine("Request sent!");
